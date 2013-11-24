@@ -1,4 +1,7 @@
 MiniatureOctoHipster::Application.routes.draw do
+  get "admin/index"
+  get "admin/login"
+  get "admin/logout"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
